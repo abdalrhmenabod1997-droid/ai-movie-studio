@@ -1,0 +1,23 @@
+# Secrets — never commit real environment files
+backend/.env
+.env
+.env.local
+
+# Python
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+backend/.venv/
+backend/venv/
+
+# Database & generated media (local dev only — production uses Postgres + R2)
+backend/movie_studio.db
+backend/media/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+*.log
